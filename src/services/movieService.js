@@ -9,7 +9,7 @@ export async function getPopularMovies() {
   }
   
   const data = await response.json();
-  return data.movies;
+  return data.results;
 };
 
 export async function searchMovies(query) {
